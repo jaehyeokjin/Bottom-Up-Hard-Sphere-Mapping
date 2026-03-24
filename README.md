@@ -20,30 +20,27 @@ The repository contains the **data, scripts, and figure files** used in the manu
 
 ---
 
-# ✨ Key Features
+# 1. Key Features
 
-- **Microscopic Hard-Sphere Mapping**  
+- **Bottom-Up Hard-Sphere Mapping**  
   Provides a bottom-up route to map molecular liquids to effective hard-sphere systems.
 
-- **Structure-Based Parameterization**  
+- **Microscopic Parameterization**  
   Uses pair correlations and effective interactions to determine hard-sphere diameters.
 
-- **Single-Parameter Dynamic Scaling**  
+- **Single-Parameter Scaling**  
   Demonstrates that molecular liquids collapse onto universal scaling relations when expressed in terms of the effective packing fraction.
 
 - **Multiple Molecular Liquids**  
   The mapping procedure is demonstrated for several representative molecular liquids:
   
-  - Chloroform
   - Ortho-terphenyl (OTP)
-  - Triphenyl carbonate (TPC)
-
-- **Reproducible Workflow**  
-  All scripts used to compute diameters, generate interaction potentials, and produce figures are included.
+  - Chloroform
+  - triphenylchloromethane (TPC)
 
 ---
 
-# 📁 Repository Structure
+# 2. Repository Structure
 
 ```text
 .
@@ -90,7 +87,7 @@ The repository contains the **data, scripts, and figure files** used in the manu
 
 ---
 
-# 📊 Data
+# 3. Data
 
 The `Data` directory contains the structural and interaction data used in the hard-sphere mapping analysis.
 
@@ -122,7 +119,7 @@ These comparisons confirm that the coarse-grained representation preserves key s
 
 ---
 
-# ⚙️ Scripts
+# 4. Scripts
 
 The `Script` directory contains Python scripts and Jupyter notebooks used to compute hard-sphere diameters and generate the analysis presented in the manuscript.
 
@@ -173,17 +170,15 @@ This directory contains the notebook used to generate the **single-parameter sca
 
 ---
 
-# 📈 Figures
+# 5. Figures
 
 The `Figure` directory contains the final figures used in the manuscript.
 
 ---
 
-# 🎓 Citation
+# 6. Citation
 
 If you use any data or scripts from this repository, please cite the manuscript: **Microscopic Hard-Sphere Mapping of Molecular Liquids** (arXiv will be updated)
-
-BibTeX
 
 ```bibtex
 @article{jin2026hardsphere,
